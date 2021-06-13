@@ -1,4 +1,5 @@
-$secondary_text_colour: #3c4043;
+$primary_text_colour: #3c4043;
+$accent_colour: #dfe1e5;
 
 * {
   padding: 0;
@@ -66,7 +67,6 @@ $secondary_text_colour: #3c4043;
   width: 100%;
   height: 20rem;
   .google_search_container {
-    width: 800px;
     .search_bar {
       margin: auto;
       margin-top: 1rem;
@@ -83,25 +83,58 @@ $secondary_text_colour: #3c4043;
         width: 46px;
       }
     }
-    .search_buttons {
-      display: flex;
-      justify-content: center;
-      margin-top: 2rem;
-      .p_text_button {
-        color: $secondary_text_colour;
-        font-weight: 300;
-        font-size: 14px;
-      }
-      .google_search_button {
-        padding: 10px;
-        margin-right: 10px;
-        background-color: #f8f9fa;
-      }
-      .lucky_button {
-        padding: 10px;
-        margin-left: 10px;
-        background-color: #f8f9fa;
-      }
+  }
+  .search_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    .p_text_button {
+      color: $primary_text_colour;
+      font-weight: 300;
+      font-size: 14px;
+    }
+    .google_search_button {
+      padding: 10px;
+      margin-right: 10px;
+      background-color: #f8f9fa;
+    }
+    .lucky_button {
+      padding: 10px;
+      margin-left: 10px;
+      background-color: #f8f9fa;
+    }
+  }
+}
+
+.footer {
+  position: relative;
+  top: 13.3rem;
+  width: 100%;
+  height: 80px;
+  .footer-primary {
+    width: 100%;
+    height: 50%;
+  }
+  .footer-secondary {
+    width: 100%;
+    height: 50%;
+  }
+  .p_text_footer {
+    position: relative;
+    color: rgba(0, 0, 0, 0.54);
+    top: 10px;
+    margin-left: 30px;
+  }
+  .footer_ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 15px;
+    .footer_li {
+      margin-left: 20px;
+      color: rgba(0, 0, 0, 0.54);
+      text-align: center;
+      position: relative;
+      top: 10px;
     }
   }
 }
