@@ -4,18 +4,25 @@
   font-family: arial, sans-serif;
 }
 
+.navbar {
+  width: 100%;
+  height: 3rem;
+}
+
 .navbar ul {
   margin-top: 1rem;
+  font-size: 14px;
 }
 
 .navbar li {
-  margin-left: 20px;
+  margin-left: 10px;
   padding: 5px;
+  height: 10px;
 }
 
 .navbar li:hover {
   cursor: pointer;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .navbar .primary-ul {
@@ -24,6 +31,7 @@
   display: -ms-flexbox;
   display: flex;
   float: left;
+  margin-left: 10px;
 }
 
 .navbar .secondary-ul {
@@ -37,13 +45,103 @@
 
 .navbar .secondary-ul .app-icon {
   position: relative;
-  bottom: 0.2rem;
   margin-left: 30px;
 }
 
 .navbar .secondary-ul .user-icon {
   position: relative;
-  bottom: 0.4rem;
-  margin-left: 30px;
+  bottom: 0.3rem;
+  margin-left: 20px;
+}
+
+.google_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 20rem;
+}
+
+.google_text .google_container {
+  position: relative;
+  top: 70%;
+}
+
+.google_search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 20rem;
+}
+
+.google_search .google_search_container {
+  width: 800px;
+}
+
+.google_search .google_search_container .search_bar {
+  margin: auto;
+  margin-top: 1rem;
+  width: 584px;
+  height: 46px;
+  border-radius: 50px;
+  border: 1px solid #dfe1e5;
+}
+
+.google_search .google_search_container .search_bar .search_icon {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 46px;
+  width: 46px;
+}
+
+.google_search .google_search_container .search_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
+.google_search .google_search_container .search_buttons .p_text_button {
+  color: #3c4043;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.google_search .google_search_container .search_buttons .google_search_button {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #f8f9fa;
+}
+
+.google_search .google_search_container .search_buttons .lucky_button {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #f8f9fa;
 }
 /*# sourceMappingURL=styles.css.map */
